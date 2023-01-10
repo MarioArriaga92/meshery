@@ -117,7 +117,7 @@
     "@babel/traverse": "^7.20.1",
     "@babel/types": "^7.19.3",
     "@types/react-relay": "^14.1.2",
-    "cypress": "^12.0.2",
+    "cypress": "^12.3.0",
     "cypress-file-upload": "^5.0.8",
     "eslint": "^7.31.0",
     "eslint-config-airbnb": "^19.0.4",
