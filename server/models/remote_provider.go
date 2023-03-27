@@ -3466,7 +3466,7 @@ func TarXZF(srcURL, destination string) error {
 	resp, err := http.Get(srcURL)
 	if err != nil {
 		if resp == nil {
-			return fmt.Errorf("Could not reach %v: %w", srcURL, err)
+			return fmt.Errorf("could not reach %v: %w", srcURL, err)
 		}
 		return err
 	}
