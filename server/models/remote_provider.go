@@ -113,7 +113,7 @@ func (l *RemoteProvider) loadCapabilities(token string) {
 		resp, err = l.DoRequest(req, token)
 	}
 	if resp == nil {
-		logrus.Errorf("Could not reach remote provider %s", err)
+		logrus.Errorf(ErrUnreachableRemoteProvider(err))
 		return
 	}
 	if err != nil || resp.StatusCode != http.StatusOK {
